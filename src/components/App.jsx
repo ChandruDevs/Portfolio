@@ -3,7 +3,6 @@
 import React, { useRef } from "react";
 import styled from "styled-components";
 import AboutMe from "./AboutMe";
-import Skills from "./Skills";
 import Projects from "./Projects";
 import ContactMe from "./ContactMe";
 import ExperienceSummary from "./Experience";

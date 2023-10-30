@@ -9,11 +9,6 @@ const IntroContainer = styled.div`
   border-radius: 5px;
 `;
 
-const Title = styled.h2`
-  font-size: 24px;
-  margin-bottom: 10px;
-`;
-
 const Name = styled.h1`
   font-size: 28px;
   margin-bottom: 10px;

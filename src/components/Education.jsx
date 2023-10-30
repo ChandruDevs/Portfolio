@@ -21,11 +21,6 @@ const Degree = styled.p`
   font-style: italic;
 `;
 
-const Description = styled.p`
-  font-size: 16px;
-  margin-bottom: 10px;
-`;
-
 const Education = () => {
   return (
     <EducationContainer>
