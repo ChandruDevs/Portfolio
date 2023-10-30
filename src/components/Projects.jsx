@@ -19,6 +19,11 @@ const MainTitle = styled.h2`
 const Description = styled.p`
   font-size: 16px;
   margin-bottom: 10px;
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
 `;
 
 const Skills = styled.p`
