@@ -27,6 +27,9 @@ const NavList = styled.ul`
   padding: 0;
   display: flex;
   justify-content: end;
+  @media only screen and (max-width: 480px) {
+    flex-direction: column;
+  }
 `;
 
 const NavItem = styled.li`
