@@ -111,8 +111,17 @@ const Projects = () => {
               </ul>
             </Description>
             <Skills>Skills: HTML, CSS, Javascript, Reactjs, Webpack</Skills>
-            <GitHubLink href="https://github.com/ChandruDevs/PopupFormPackage">
-              githublink: https://github.com/ChandruDevs/PopupFormPackage
+            <GitHubLink
+              target={"_blank"}
+              href="https://github.com/ChandruDevs/PopupFormPackage"
+            >
+              Github Link - PopupFormPackage
+            </GitHubLink>
+            <GitHubLink
+              target={"_blank"}
+              href="https://www.npmjs.com/package/popup-form-component"
+            >
+              View my NPM package in npm store
             </GitHubLink>
             <MoreDetailsButton onClick={handleTogglePopupFormDetails}>
               Show Less
@@ -160,11 +169,23 @@ const Projects = () => {
             <Skills>
               Skills: Django, Chrome Extension, Webpack, React.js, AWS
             </Skills>
-            <GitHubLink href="https://github.com/ChandruDevs/PopupFormPackage">
-              Frontend: https://github.com/ChandruDevs/PopupFormPackage
+            <GitHubLink
+              target={"_blank"}
+              href="https://chrome.google.com/webstore/detail/productivitymaster/eibpjfjaecdphopelhgmapfbibemncjp"
+            >
+              View My Extension in Chrome WebStore
             </GitHubLink>
-            <GitHubLink href="https://github.com/ChandruDevs/myserver">
-              Backend: https://github.com/ChandruDevs/myserver
+            <GitHubLink
+              target={"_blank"}
+              href="https://github.com/ChandruDevs/ProductivityMasterChromeExtension"
+            >
+              ProductivityMasterChromeExtension- Frontend
+            </GitHubLink>
+            <GitHubLink
+              target={"_blank"}
+              href="https://github.com/ChandruDevs/myserver"
+            >
+              ProductivityMasterChromeExtension- Backend
             </GitHubLink>
             <MoreDetailsButton onClick={handleToggleProductivityMasterDetails}>
               Show Less
@@ -174,9 +195,7 @@ const Projects = () => {
       </ProjectContainer>
 
       <ProjectContainer>
-        <Title onClick={handleToggleProductivityMasterDetails}>
-          3 - Portfolio
-        </Title>
+        <Title onClick={handlePortfolio}>3 - Portfolio</Title>
         <Description>
           I built a React JS portfolio website to showcase my web development
           skills and experience. It's responsive, modern, and easy to use.
@@ -191,8 +210,11 @@ const Projects = () => {
         {showPortfolio && (
           <>
             <Skills>Skills: HTML,CSS,React JS</Skills>
-            <GitHubLink href="https://github.com/ChandruDevs/PopupFormPackage">
-              https://github.com/ChandruDevs/PopupFormPackage
+            <GitHubLink
+              target={"_blank"}
+              href="https://github.com/ChandruDevs/Portfolio"
+            >
+              Github - Portfolio
             </GitHubLink>
             <MoreDetailsButton onClick={handlePortfolio}>
               Show Less
