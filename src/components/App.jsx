@@ -13,7 +13,21 @@ const Container = styled.div`
   padding: 20px;
   font-family: "Arial", sans-serif;
   font-size: 16px;
-  background-color: #f4f4f4;
+  background-color: #f2f2f2;
+  a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: #007bff;
+      color: #fff;
+    }
+  }
 `;
 
 const Nav = styled.nav`

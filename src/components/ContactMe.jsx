@@ -23,7 +23,7 @@ const Contact = () => {
         <p>Email: chandru20001@gmail.com</p>
         <p>
           LinkedIn:{" "}
-          <a href="https://www.linkedin.com/in/chandru20001">linkedin.com</a>
+          <a href="https://www.linkedin.com/in/chandru20001">Linkedin</a>
         </p>
       </ContactInfo>
     </ContactContainer>
